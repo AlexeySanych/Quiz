@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Quiz</title>
+</head>
+<body>
+   <div class="wrapper wrapper-head">
+      <section class="head">
+            <div class="head-wrapper">
+               <div class="phone">
+                  <span>Телефон для связи</span> <br>
+                  <a href="tel:88000000000">8 (800) 000-00-00</a>
+               </div>
+               <h1 class="title">Помощь студентам в написании<br>
+                  <span>учебных и выпускных<br> работ</span>
+               </h1>
+               <p class="subtitle">с гарантией прохождения антиплагиата и бесплатными правками 6 месяцев</p>
+               <div class="advantages">
+                  <div class="advantage">
+                     <img src="img/quickly.svg" alt="quickly">
+                     <p>
+                        <span>Быстро</span><br>
+                        от 30 дней
+                     </p>
+                  </div>
+                  <div class="advantage">
+                     <img src="img/cheaply.svg" alt="cheaply">
+                     <p>
+                        <span>Не дорого</span><br>
+                        от 11 тыс. руб
+                     </p>
+                  </div>
+                  <div class="advantage">
+                     <img src="img/qualitatively.svg" alt="qualitatively">
+                     <p>
+                        <span>Качественно</span><br>
+                        более 200 отзывов на 5 звезд
+                     </p>
+                  </div>
+               </div>
+               <div class="get-cost">
+                  <p>Рассчитай стоимость
+                     за 1 минуту<br> и <span>получи скидку 15%</span> на первый заказ</p>
+                  <button class="btn js-start">Продолжить и получить скидку 15%</button>
+               </div>
+            </div>
+      </section>
+
+      <section class="quiz d-none">
+         <form class="js-quiz-form" action="#" method="post">
+            <h2 class="quiz-title">Получите стоимость<br> написания Вашей работы за 1 минуту: </h2>
+            <fieldset class="fieldset" >
+               <div class="fieldset-wrapper">
+                  <div class="fieldset-body">
+                     <div class="progress-bar">
+                        <p class="progress-item progress-item-1 progress-item-current"><span class="progress-index">1</span></p>
+                        <p class="progress-item progress-item-2"><span class="progress-index">2</span></p>
+                        <p class="progress-item progress-item-3"><span class="progress-index">3</span></p>
+                        <p class="progress-item progress-item-4"><span class="progress-index">4</span></p>
+                     </div>
+                     <p class="progress-txt">Ваша <span>скидка 3%</span>. Получите <span>+3%</span> скидки указав тему и тип работы</p>
+                     <p class="question">По какому предмету нужна работа?</p>
+                     <div class="input-wrapper">
+                        <p class="input-title">Введите название предмета</p>
+                        <input class="input js-answer" type="text" name="Название предмета">
+                     </div>
+                     <button class="btn js-next">Продолжить и получить скидку 15%</button>
+                  </div>
+                  <div class="fieldset-aside">
+                     <p>Вы можете заказать все работы в одном месте. У нас более 2000 дисциплин и команда авторов из 275 человек.</p>
+                     <p class="consultation">Нужна консультация специалиста?<br>
+                        <button class="btn-popup">Получить консультацию</button>
+                     </p>
+                  </div>
+               </div>
+            </fieldset>
+            <fieldset class="fieldset d-none">
+               <div class="fieldset-wrapper">
+                  <div class="fieldset-body">
+                     <div class="progress-bar">
+                        <p class="progress-item progress-item-1 passed"><span class="progress-index">1</span></p>
+                        <p class="progress-item progress-item-2 progress-item-current"><span class="progress-index">2</span></p>
+                        <p class="progress-item progress-item-3"><span class="progress-index">3</span></p>
+                        <p class="progress-item progress-item-4"><span class="progress-index">4</span></p>
+                     </div>
+                     <p class="progress-txt">Ваша <span>скидка 6%</span>. Получите <span>+3%</span> скидки указав предмет</p>
+                     <p class="question">Какой тип и тема Вашей работы?</p>
+                     <div class="input-block">
+                        <div class="input-wrapper">
+                           <p class="input-title">Какой тип Вашей работы?</p>
+                           <select class="select input js-answer" name="Тип работы">
+                              <option value="Дипломная">Дипломная работа</option>
+                              <option value="Курсовая">Курсовая работа</option>
+                              <option value="Контрольная">Контрольная работа</option>
+                           </select>
+                        </div>
+                        <div class="input-wrapper">
+                           <p class="input-title">Укажите тему работы</p>
+                           <input class="input js-answer" type="text" name="Тема работы">
+                        </div>
+                     </div>
+                     <button class="btn js-next">Продолжить и получить скидку 15%</button>
+                  </div>
+                  <div class="fieldset-aside">
+                     <p>С 2008 года написали 25 146 работ для 9 390 студентов очного и заочного отделений</p>
+                     <p class="consultation">Нужна консультация специалиста?<br>
+                        <button class="btn-popup">Получить консультацию</button>
+                     </p>
+                  </div>
+               </div>
+            </fieldset>
+            <fieldset class="fieldset d-none">
+               <div class="fieldset-wrapper">
+                  <div class="fieldset-body">
+                     <div class="progress-bar">
+                        <p class="progress-item progress-item-1 passed"><span class="progress-index">1</span></p>
+                        <p class="progress-item progress-item-2 passed"><span class="progress-index">2</span></p>
+                        <p class="progress-item progress-item-3 progress-item-current"><span class="progress-index">3</span></p>
+                        <p class="progress-item progress-item-4"><span class="progress-index">4</span></p>
+                     </div>
+                     <p class="progress-txt">Ваша <span>скидка 9%</span>. Получите <span>+3%</span> скидки указав предмет</p>
+                     <p class="question">Какие дополнительные пожелания?</p>
+                        <div class="input-wrapper">
+                           <p class="input-title">Какие дополнительные пожелания?</p>
+                           <textarea class="textarea js-answer" name="Дополнительные пожелания"></textarea>
+                        </div>
+
+                     <button class="btn js-next js-enabled">Продолжить и получить скидку 15%</button>
+                  </div>
+                  <div class="fieldset-aside">
+                     <p>Мы юридическая компания, работаем по договору и несем полную ответственность за качество написанных работ</p>
+                     <p class="consultation">Нужна консультация специалиста?<br>
+                        <button class="btn-popup">Получить консультацию</button>
+                     </p>
+                  </div>
+               </div>
+            </fieldset>
+            <fieldset class="fieldset d-none">
+               <div class="fieldset-wrapper">
+                  <div class="fieldset-body">
+                     <div class="progress-bar">
+                        <p class="progress-item passed"><span class="progress-index">1</span></p>
+                        <p class="progress-item passed"><span class="progress-index">2</span></p>
+                        <p class="progress-item passed"><span class="progress-index">3</span></p>
+                        <p class="progress-item progress-item-current"><span class="progress-index">4</span></p>
+                     </div>
+                     <p class="progress-txt">Укажите куда отправить расчет стоимости и получите <br> <span>скидку 15%</span></p>
+                     <p class="question">Куда отправить стоимость написания работы?</p>
+                     <div class="input-radio-block">
+                        <div class="input-radio">
+                              <input class="radio" id="tell" type="radio" name="send-to" value="Позвоните мне">
+                              <label class="label-radio" for="tell">БЕСПЛАТНАЯ консультация по телефону - хочу узнать подробнее об акциях, которые сейчас проходят</label>
+                        </div>
+                        <div class="input-radio">
+                           <input class="radio" id="whatsapp" type="radio" name="send-to" value="Отправте стоимость в WhatsApp">
+                           <label class="label-radio" for="whatsapp">WhatsApp</label>
+                        </div>
+                        <div class="input-radio">
+                           <input class="radio" id="sms" type="radio" name="send-to" value="Отправте стоимость в SMS">
+                           <label class="label-radio" for="sms">СМС</label>
+                        </div>
+                     </div>
+                     <div class="input-wrapper">
+                        <p class="input-title">Укажите Ваш номер телефона, за ним будет закреплена скидка</p>
+                        <div class="input-block">
+                           <p class="input-tel">
+                              <input class="input js-answer" type="tel" name="Номер телефона" placeholder="+7(___) ___ __ __">
+                           </p>
+                           <div class="submit">
+                              <button class="btn js-submit" type="submit">Получить расчет стоимости и скидку 15%</button>
+                              <p class="sub-txt">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и соглашаетесь с Политикой конфиденциальности</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="fieldset-aside">
+                     <p>Поздравляю! Мы дарим вам скидку 15% на первый заказ. А так же дополнительный подарок о котором вы можете узнать у менеджера.</p>
+                     <p class="consultation">Нужна консультация специалиста?<br>
+                        <button class="btn-popup">Получить консультацию</button>
+                     </p>
+                  </div>
+               </div>
+            </fieldset>
+         </form>
+      </section>
+      <section class="end d-none">
+         <div class="block-wrapper">
+            <h2 class="end-title">Спасибо за заявку!</h2>
+            <p class="end-subtitle">Мы уже отправляем Вам расчет стоимости</p>
+            <button class="btn js-order">Просмотреть заявку</button>
+         </div>
+      </section>
+
+      <section class="order d-none">
+         <div class="block-wrapper">
+            <h2 class="order-title">Ваша заявка:</h2>
+            <ul class="results-list">
+            </ul>
+         </div>
+      </section>
+      
+      <section class="form__popup d-none">
+         <div class="popup-wrapper">
+            <button class="close-popup">X</button>
+            <h2 class="popup-title">Укажите контактные данные</h2>
+            <p class="popup-txt">Менеджер свяжется с вами в течение 15 минут в рабочее время и проконсультирует по всем вопросам</p>
+            <form action="#">
+               <div class="input-wrapper">
+                  <p class="input-title">Как вас зовут?</p>
+                  <input class="input" type="text" name="name-popup" placeholder="Иван Петрович">
+               </div>
+               <div class="input-wrapper">
+                  <p class="input-title">Введите телефон</p>
+                  <input class="input" type="tel" name="tel-popup" placeholder="+7 900 000 00 00">
+               </div>
+               <button class="btn js-popup-submit" type="submit">Позвоните мне</button>
+            </form>
+         </div>
+      </section>
+   </div>
+   <script src="js/script.js"></script>
+</body>
+</html>
